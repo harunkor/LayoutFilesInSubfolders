@@ -4,6 +4,7 @@ You can create a new folder inside the res directory. The new folder you create 
 
 Open app build.gradle file and add the following code
 
+'''
 sourceSets {
     main {
         res.srcDirs =
@@ -17,6 +18,7 @@ sourceSets {
                 ]
     }
 }
+'''
 
 
 
